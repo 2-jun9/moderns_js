@@ -25,3 +25,9 @@ let admin = userr; // userr의 참조값을 복사함, 객체 자체는 복사�
 
 admin.name = "Pete";
 alert(userr.name); // Pete가 출력됨
+
+let str = "Hello";
+
+alert(str[0]);
+alert(str.charAt(0));
+alert(str[str.length - 1]);
